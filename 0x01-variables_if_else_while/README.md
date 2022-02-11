@@ -1,7 +1,7 @@
-#0x01. C - Variables, if, else, while
-##Learning Objectives
+# 0x01. C - Variables, if, else, while
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-##General
+## General
 * What are the arithmetic operators and how to use them
 * What are the logical operators (sometimes called boolean operators) and how to use them
 * What the the relational operators and how to use them
@@ -17,8 +17,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * How to print variables using printf
 * What is the ASCII character set
 * What are the purpose of the gcc flags -m32 and -m64
-#Requirements
-##General
+# Requirements
+## General
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * All your files should end with a new line
@@ -26,7 +26,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * There should be no errors and no warnings during compilation
 * You are not allowed to use system
 * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-#Quiz questions
+# Quiz questions
 1. What is the size of the unsigned int data type?
 * 4 bytes
 2. What is the size of the char data type?
