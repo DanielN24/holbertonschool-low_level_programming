@@ -5,15 +5,11 @@
 */
 int main(void)
 {
-	char ch = 'a';
+	int i;
 
-	printf("Lowercase English Alphabets:\n");
-	while (ch <= 'z')
-{
-	printf("%c ", ch);
-	ch++;
-}
-	printf("\n");
-
+	for (i = 'a' ; i >= 'z' ; i--)
+	{
+	printf("%c", i);
+	}
 	return (0);
 }
