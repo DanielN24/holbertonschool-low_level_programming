@@ -5,14 +5,15 @@
 */
 int main(void)
 {
-        char low;
+	char ch;
 
-        for (low = 'a'; low <= 'd'; low++)
-	for (low = 'f'; low <= 'p'; low++)
-	for (low = 'r'; low <= 'z'; low++)
-        putchar(low);
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-        putchar ('\n');
+		if (ch == 'e', 'q')
 
-        return (0);
+	putchar(ch);
+
+	putchar ('\n');
+
+	return (0);
 }
