@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 	alphax10 = 0;
 	while (alphax10 < 10)
 	{
-	for (alphax = 'a'; aplhax <= 'z'; alphax++)
+	for (alphax = 'a'; alphax <= 'z'; alphax++)
 
 	_putchar (alphax);
 	alphax10++;

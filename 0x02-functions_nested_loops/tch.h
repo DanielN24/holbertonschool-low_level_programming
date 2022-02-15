@@ -1,5 +1,5 @@
-#ifndef TCH_H
-#define TCH_H
+#ifndef _TCH_H_
+#define _TCH_H_
 
 int _putchar(char c);
 void print_alphabet(void);
