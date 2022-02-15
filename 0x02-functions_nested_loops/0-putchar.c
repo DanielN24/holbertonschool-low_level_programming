@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  * main - main function
  * putchar - prints _putchar followed by a new line to stdout
