@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - alphabet x10
 */

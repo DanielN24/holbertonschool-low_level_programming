@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  * _islower - check lower c
  * @c: letter
