@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  * add - a+b
  *@a: number

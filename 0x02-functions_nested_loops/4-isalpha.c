@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  * _isalpha - check if c is lower or uppercase
  * @c: letter

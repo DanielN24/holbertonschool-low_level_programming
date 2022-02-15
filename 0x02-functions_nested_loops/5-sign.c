@@ -1,4 +1,4 @@
-#include "tch.h"
+#include "main.h"
 /**
  *print_sign - print signs
  *@n: is a variable
