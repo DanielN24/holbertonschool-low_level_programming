@@ -6,9 +6,14 @@
 */
 int _strlen(char *s)
 {
-	int a = 0;
+	int a = 1;
+	int b = 0;
+	char c = s[0];
 
-	while (s[0] != '\0')
-	a++;
-	return (a);
+	while (c != '\0')
+	{
+	b++;
+	c = s[a++];
+	}
+	return (b);
 }
