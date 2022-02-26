@@ -16,7 +16,6 @@ char *rot13(char *a)
 		if (*a == abc[count])
 		{
 			*a = code[count];
-				break;
 		}
 	a++;
 	}
