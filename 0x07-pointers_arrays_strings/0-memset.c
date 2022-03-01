@@ -1,7 +1,9 @@
 #include "main.h"
 /**
 **_memset - unction that fills memory with a constant byte
-*@s: pointer name 
+*@s: pointer name
+*@b: variable name
+*@n: variable name
 *Return: return s
 */
 char *_memset(char *s, char b, unsigned int n)
