@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _strstr - finds the first occurrence of needle in the haystack and return
-* @haystack: pointer name
+* @haystack: pointer name.
 * @needle: pointer name
 * Return: a pointer to the beginning of the located substring
 * or NULL if the substring is not found.
