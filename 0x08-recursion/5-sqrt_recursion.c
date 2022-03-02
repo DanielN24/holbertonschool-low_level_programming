@@ -3,6 +3,7 @@
 *_root_square - function created.
 *@a: variable name
 *@b: variable name
+*Return: -1 if n does not have a natural square root
 */
 int _root_square(int a, int b)
 {
