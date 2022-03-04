@@ -6,15 +6,15 @@
 *@argv: The number of command line arguments
 *Return: always 0
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a, b, c = 0;
 
-	for (a = 1; a < argc; a++
+	for (a = 1; a < argc; a++)
 	{
 		for (b = 0; argv[a][b]; b++)
 		{
-			if (argv < '0' || > '9')
+			if (argv[a][b] < '0' || argv[a][b] > '9')
 			{
 				printf("Error\n");
 				return (1);
