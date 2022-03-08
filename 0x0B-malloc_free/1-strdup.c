@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup - function that returns a pointer to a newly allocated space in memory
+ * _strdup - function that returns a pointer to a newly in memory
  * @str: variable name
  * Return: NULL if str == NULL or insufficient memory is available
  */
@@ -10,8 +10,11 @@ char *_strdup(char *str)
 {
 	char *a;
 	int b, c = 0;
+
 	if (str == NULL)
+	{
 		return (NULL);
+	}
 	for (b = 0; str[b]; b++)
 		c++;
 	a = malloc(sizeof(char) * (c + 1));
