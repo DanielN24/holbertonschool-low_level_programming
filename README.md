@@ -40,4 +40,4 @@
      *Comment
      */
 6. What are the different steps to form an executable file from C source code
-  * Preprocessing, compilation, assembly, and linking
+  * Preprocessing, compilation, assembly, and linking.
