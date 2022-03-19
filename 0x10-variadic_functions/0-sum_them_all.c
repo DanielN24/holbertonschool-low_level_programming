@@ -5,20 +5,20 @@
  *@n: variable name
  *Return: if n=0 return 0
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
-	int a, b;
+	unsigned int a, b;
 	va_list c;
 
 	va_start(c, n);
-	b = O;
+	b = 0;
 
-	if (n == O)
+	if (n == 0)
 		return (0);
 
 	for (a = 0; a < n; a++)
 	{
-		b += var_arg(c, int);
+		b += va_arg(c, int);
 	}
 
 	va_end(c);
