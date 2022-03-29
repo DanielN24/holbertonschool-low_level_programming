@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 /**
 *array_iterator - function that executes a function
-*@array: nubers array 
+*@array: nubers array
 *@size: size
-*action: function name 
+*@action: function name
 */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
