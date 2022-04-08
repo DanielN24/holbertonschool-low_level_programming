@@ -1,0 +1,19 @@
+.\" manpage for simple shell project
+.\" Contact 4456@holbertonschool.com or 4642@holbertonschool.com  to correct errors
+.TH "SIMPLE_SHELL" "1" "07 APRIL 2022"  "Simple_Shell man page"
+
+.SH NAME
+Simple_Shell \- Section header.
+
+.SH SYNOPSIS
+The shell is executed by typing ./hsh
+
+.SH DESCRIPTION
+This is command language interpreter that executes commands read from the standard input or from a file. is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHORS
+.B Angie Aldana,
+.B Daniel Novoa
