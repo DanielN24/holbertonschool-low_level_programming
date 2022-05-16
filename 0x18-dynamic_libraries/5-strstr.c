@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
 * _strstr - finds the first occurrence of needle in the haystack and return
 * @haystack: pointer name.
@@ -20,5 +22,5 @@ char *_strstr(char *haystack, char *needle)
 		if (needle[b] == '\0')
 			return (haystack + a);
 	}
-	return ('\0');
+	return (NULL);
 }
